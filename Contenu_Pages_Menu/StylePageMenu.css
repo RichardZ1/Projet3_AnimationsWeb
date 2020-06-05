@@ -211,11 +211,12 @@ body
     transform-origin: 0% 50%;
 }
 .titre3 {
+    font-family: 'england_hand_dbregular';
     /* Fallback: Set a background color. */
     background-color: red;
     
     /* Create the gradient. */
-    background-image: linear-gradient(-80deg, #56a7e6 40% , #56a7e6 50%,#1570c7 10%);
+    background-image: linear-gradient(-45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
     
     /* Set the background size and repeat properties. */
     background-size: 100%;

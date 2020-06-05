@@ -1,0 +1,19 @@
+{
+  "name": "projet3_animationsweb",
+  "version": "1.0.0",
+  "description": "\"Projet 3 sur les animations web Ohymyfood\"",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/Style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardZ1/Projet3_AnimationsWeb.git"
+  },
+  "author": "\"Richard Zizert\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardZ1/Projet3_AnimationsWeb/issues"
+  },
+  "homepage": "https://github.com/RichardZ1/Projet3_AnimationsWeb#readme"
+}
