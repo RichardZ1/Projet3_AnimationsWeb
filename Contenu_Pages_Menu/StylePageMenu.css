@@ -1,71 +1,109 @@
 @font-face {
-    font-family: "PeacerfulDay";
-    src: url("fonts/PeacerfulDay.woff2") format("woff2"), url("fonts/PeacerfulDay.woff") format("woff");
+    font-family: 'domineregular';
+    src: url('Font/Domine-Regular-webfont.eot');
+    src: url('Font/Domine-Regular-webfont.eot') format('embedded-opentype'),
+         url('Font/Domine-Regular-webfont.woff2') format('woff2'),
+         url('Font/Domine-Regular-webfont.woff') format('woff'),
+         url('Font/Domine-Regular-webfont.ttf') format('truetype'),
+         url('Font/Domine-Regular-webfont.svg#domineregular') format('svg');
+}
+@font-face {
+    font-family: 'dominebold';
+    src: url('Font/Domine-Bold-webfont.eot');
+    src: url('Font/Domine-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/Domine-Bold-webfont.woff2') format('woff2'),
+         url('Font/Domine-Bold-webfont.woff') format('woff'),
+         url('Font/Domine-Bold-webfont.ttf') format('truetype'),
+         url('Font/Domine-Bold-webfont.svg#dominebold') format('svg');
+}
+@font-face {
+    font-family: 'handleeregular';
+    src: url('Font/handlee-regular-webfont.eot');
+    src: url('Font/handlee-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/handlee-regular-webfont.woff2') format('woff2'),
+         url('Font/handlee-regular-webfont.woff') format('woff'),
+         url('Font/handlee-regular-webfont.ttf') format('truetype'),
+         url('Font/handlee-regular-webfont.svg#handleeregular') format('svg');
     font-weight: normal;
     font-style: normal;
-  }
-  .Entete {
+}
+@font-face {
+    font-family: 'im_fell_french_canon_proRg';
+    src: url('Font/FeFCrm27C-webfont.eot');
+    src: url('Font/FeFCrm27C-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/FeFCrm27C-webfont.woff2') format('woff2'),
+         url('Font/FeFCrm27C-webfont.woff') format('woff'),
+         url('Font/FeFCrm27C-webfont.ttf') format('truetype'),
+         url('Font/FeFCrm27C-webfont.svg#im_fell_french_canon_proRg') format('svg');
+}
+@font-face {
+    font-family: 'england_hand_dbregular';
+    src: url('Font/england-webfont.eot');
+    src: url('Font/england-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/england-webfont.woff2') format('woff2'),
+         url('Font/england-webfont.woff') format('woff'),
+         url('Font/england-webfont.ttf') format('truetype'),
+         url('Font/england-webfont.svg#england_hand_dbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.Entete {
       background-color: #569C87;
       text-align: center;
       font-size: x-large;
       margin-bottom: 2em;
   }
-  .enteteTitre
-  {
-      letter-spacing: -3px;
-  }
-
-
+.titreEntete {
+    letter-spacing: -3px;
+}
+h1 {
+    color: #FCCA46;
+    font-family: 'dominebold', serif;
+}
 body
 {
 	margin: auto;
 	background-color: #FCFCFC;
 }
-
-.pagecontent
-{
+.contenuPage {
     background-color: white;
     display: flex;
     flex-direction: column;
 }
-
-#titre
-{
+.titre {
     margin: auto;
     margin-bottom: 1em;
+    font-size: 2em;
+    font-family: 'domineregular'
 }
-#pagebodymenu1
-{
+.titre1 {
+    font-family: 'handleeregular';
+    font-size: 2em;
+}
+#bodyMenu1 {
     display: flex;
     flex-direction: column;
     margin: auto;
     background-color: #FCDFDB;
     border: black, 4em;
-    -webkit-box-shadow : 0 0 15px #B5B5B1;
-    -moz-box-shadow : 0 0 15px #B5B5B1;
     box-shadow : 0 0 15px #B5B5B1;
     width: 68%;
     margin-bottom: 3em;
-    margin-bottom: 4em;
-    font-family: "Kalam", cursive;
+    font-family: 'handleeregular' ;
     color: #3D1319;
 }
-.font1
-{
-    font-size: 3em;
-    font-family: "Devonshire", cursive;
-    
+.listeMenu, .soustitre {
+    font-family: 'handleeregular' ;
+    color: #3D1319;
 }
-.font1bas
-{
+.titreBasPage {
     font-size: 2em;
-    font-family: "Devonshire", cursive;
+    font-family: 'handleeregular';
 }
-
- #pagebodymenu1 .prelude:hover:after {
+#bodyMenu1 .soustitre1:hover:after {
     transform: scaleX(1);
-  }
-  #pagebodymenu1 .prelude:after {
+}
+#bodyMenu1 .soustitre1:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -74,29 +112,23 @@ body
     transform: scaleX(0);
     transition: 0.5s;
     transform-origin: 0% 50%;
-  }
-
-  
-#pagebodymenu2
-{
+}
+#bodyMenu2 {
     display: flex;
     flex-direction: column;
     margin: auto;
     background-color: #FFF5FE;
     border: black, 4em;
     box-shadow : 0 0 15px #B5B5B1;
-    -moz-box-shadow : 0 0 15px #B5B5B1;
-    box-shadow : 0 0 15px #B5B5B1;
     width: 68%;
     margin-bottom: 3em;
     margin-bottom: 4em;
-    font-family: "Source Serif Pro", serif;
-    
+    font-family: 'im_fell_french_canon_proRg';    
 }
-#pagebodymenu2 .memu2prelude1:hover:after {
+#bodyMenu2 .soustitre1Page2:hover:after {
     transform: scaleX(1);
   }
-  #pagebodymenu2 .memu2prelude1:after {
+#bodyMenu2 .soustitre1Page2:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -106,10 +138,10 @@ body
     transition: 0.5s;
     transform-origin: 0% 50%;
   }
-  #pagebodymenu2 .memu2prelude2:hover:after {
+#bodyMenu2 .soustitre2Page2:hover:after {
     transform: scaleX(1);
   }
-  #pagebodymenu2 .memu2prelude2:after {
+#bodyMenu2 .soustitre2Page2:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -119,10 +151,10 @@ body
     transition: 0.5s;
     transform-origin: 0% 50%;
   }
-  #pagebodymenu2 .memu2prelude3:hover:after {
+#bodyMenu2 .soustitre3Page2:hover:after {
     transform: scaleX(1);
   }
-  #pagebodymenu2 .memu2prelude3:after {
+#bodyMenu2 .soustitre3Page2:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -131,8 +163,8 @@ body
     transform: scaleX(0);
     transition: 0.5s;
     transform-origin: 0% 50%;
-  }
-.font2
+}
+.titre2
 {
     font-size: 2em;
     /* Fallback: Set a background color. */
@@ -152,25 +184,23 @@ body
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 }
-#pagebodymenu3
+#bodyMenu3
 {
     display: flex;
     flex-direction: column;
     margin: auto;
     background-color: #EDEFEF;
     border: black, 4em;
-    -webkit-box-shadow : 0 0 15px #B5B5B1;
-    -moz-box-shadow : 0 0 15px #B5B5B1;
     box-shadow : 0 0 15px #B5B5B1;
     width: 68%;
     margin-bottom: 3em;
     margin-bottom: 4em;
-    font-family: "Kalam", cursive;
+    font-family: 'england_hand_dbregular';
 }
-#pagebodymenu3 .prelude:hover:after {
+#bodyMenu3 .soustitre1:hover:after {
     transform: scaleX(1);
   }
-  #pagebodymenu3 .prelude:after {
+#bodyMenu3 .soustitre1:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -179,9 +209,8 @@ body
     transform: scaleX(0);
     transition: 0.5s;
     transform-origin: 0% 50%;
-  }
-.font3
-{
+}
+.titre3 {
     /* Fallback: Set a background color. */
     background-color: red;
     
@@ -198,11 +227,10 @@ body
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
-    font-family: "Dancing Script", cursive;
+    font-family: 'england_hand_dbregular';
     font-size: 3em;
 }
-#pagebodymenu4
-{
+#bodyMenu4 {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -216,10 +244,10 @@ body
     margin-bottom: 4em;
     font-family: "Kalam", cursive;
 }
-#pagebodymenu4 .prelude:hover:after {
+#bodyMenu4 .soustitre1:hover:after {
     transform: scaleX(1);
   }
-  #pagebodymenu4 .prelude:after {
+#bodyMenu4 .soustitre1:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -228,8 +256,8 @@ body
     transform: scaleX(0);
     transition: 0.5s;
     transform-origin: 0% 50%;
-  }
-.font4
+}
+.titre4
 {
     /* Fallback: Set a background color. */
     background-color: red;
@@ -252,49 +280,29 @@ body
     font-family: "Kaushan Script", cursive;
     font-size: 3em;
 }
-#pagemention
+.titre1, .titre2, .titre3, .titre4
 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: auto;
-    background-color: #EEEAEB;
-    border: black, 4em;
-    -webkit-box-shadow : 0 0 15px #B5B5B1;
-    -moz-box-shadow : 0 0 15px #B5B5B1;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 68%;
-    margin-bottom: 3em;
-    margin-bottom: 4em;
-    font-family: "Kalam", cursive;
     padding-top: 2em;
-    padding-bottom: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
 }
-.deco
+i
 {
-    width: 30%;
-}
-.titremenu
-{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding-top: 5em;
-    padding-bottom: 5em;
-}
-.note 
-{
-    padding-left: 7em;
+    padding-top: 2em;
+    padding-left: 6.5em;
     padding-right: 7em;
+    align-items: center;
+    font-size: 4em;
+    color: #f58134f1
 }
 .notemini
 {
     padding-top: 2em;
     padding-bottom: 2em;
 }
-.soustitre
-{
+.soustitre {
     margin-top: 35px;
     display: flex;
     flex-direction: row;
@@ -304,37 +312,37 @@ body
     margin-left: 1em;
     margin-right: 1em;
 }
-.prelude
+.soustitre1
 {
     font-size: 2em;
     text-align: center;
 }
-.memu2prelude1
+#bodyMenu2 .soustitre .soustitre1Page2
 {
     font-size: 2em;
     color: #C67412;
     text-align: center;
 }
-.memu2prelude2
+#bodyMenu2 .soustitre .soustitre2Page2
 {
     font-size: 2em;
     color: #A56799;
     text-align: center;
 }
-.memu2prelude3
+#bodyMenu2 .soustitre .soustitre3Page2
 {
     font-size: 2em;
     color: #6E4CCC;
     text-align: center;
 }
-.listemenu
+.listeMenu
 {
    width: 75%;
    margin: auto;
    margin-top: 2em;
    margin-bottom: 3em;
 }
-.page2listemenu1
+.liste1Menu
 {
    width: 75%;
    margin: auto;
@@ -342,7 +350,7 @@ body
    margin-bottom: 3em;
    color: #C67412 ;
 }
-.page2listemenu2
+.liste2Menu
 {
    width: 75%;
    margin: auto;
@@ -350,7 +358,7 @@ body
    margin-bottom: 3em;
    color: #A56799;
 }
-.page2listemenu3
+.liste3Menu
 {
    width: 75%;
    margin: auto;
@@ -358,42 +366,33 @@ body
    margin-bottom: 3em;
    color: #6E4CCC;
 }
-.basmenu1
+.basmenu
 {
     display: flex;
     flex-direction: row;
     margin: auto;
     margin-bottom: 5em;
 }
-.plat
-{
+.plat {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
-
-
-h1
-{
+h1 {
     color: #FCCA46;
 }
-
-.pagebody
-{
-   
+.contenuPage {  
     display: flex;
     flex-direction: column;
     margin: auto;
-  
 }
-a
-{
+a {
     text-decoration: none;
 }
-
-footer
-{
+.btn_secousse {
+    color: #FCCA46;
+}
+footer {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -407,23 +406,17 @@ footer
     padding-top: 0;
     padding-bottom: 0;
 }
-.secousse
-{
-    color: #FCCA46;
-}
-.secousse
-{
+.btn_secousse {
     padding-top: 1px;
     padding-bottom: 1px;
 }
-.secousse:hover {
+.btn_secousse:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s;
   
     /* When the animation is finished, start again */
     animation-iteration-count: infinite;
-  }
-
+}
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -437,7 +430,6 @@ footer
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
-
 
 
   @media screen and (max-width: 559px)
