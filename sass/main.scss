@@ -1,3 +1,5 @@
+$colortxt: #FCCA46;
+$colorfond:#569C87;
 @font-face {
     font-family: 'domineregular';
     src: url('Font/Domine-Regular-webfont.eot');
@@ -53,146 +55,120 @@ body {
 	margin: auto;
 	background-color: #FCFCFC;
 }
-.contenuPage {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-}
-.Entete {
-    background-color: #569C87;
-    text-align: center;
-    font-size: x-large;
-    margin-bottom: 2em;
-}
-.titreEntete {
-    letter-spacing: -3px;
-}
-h1 {
-    color: #FCCA46;
-    font-family: 'dominebold' ;
-}
-.blocMenus { 
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-.duoMenus {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 2em;
-}
-.menu1 {
-    background-color: #FCDFDB;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 15em;
-    margin-right: 1em;
-}
-
-.texteMenu1 {
-    color: #3D1319;
-    text-align: center;
-}
-i {
-    font-size: 2em;
-    color: #f58134f1
-}
-.nomRest1 {
-    font-family: 'handleeregular', sans-serif;
-}
-.menuRest1 {
-    font-family: 'handleeregular', sans-serif;
-    font-size: 22px;
-}
-.menu2 {
-    background-color: #FFF5FE;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 15em;
-    margin-left: 1em;
-}
-.texteMenu2 {
-    text-align: center;
-    color: #C67412;
-    padding-top: 20%;
-    font-family: 'im_fell_french_canon_proRg', sans-serif;
-}
-.nomRest2 {
-    font-size: 18px;
-    /* Fallback: Set a background color. */
-    background-color: red;
-    
-    /* Create the gradient. */
-    background-image: linear-gradient(20deg, #C77412, #8F59FF);
-    
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    font-family: 'im_fell_french_canon_proRg', sans-serif;
-  }
-.menu3 {  
-    background-color: #EDEFEF;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 15em;
-    margin-right: 1em;
-}
-.texteMenu3 {
-    text-align: center;
-    color:#1776E9;
-    font-family: 'england_hand_dbregular';
-}
-.nomRest3 {
-    font-size: 22px;
-    font-family: 'england_hand_dbregular';
-    /* Fallback: Set a background color. */
-    background-color: red;
-    
-    /* Create the gradient. */
-    background-image: linear-gradient(-45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
-    
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    font-family: 'england_hand_dbregular';
-  }
-.menuRest3 {
-    font-family: Tahoma, Verdana, Geneva, sans-serif;
-}
-.menu4 { 
-    background-color: #FDFFFD;
-    -webkit-box-shadow : 0 0 15px #B5B5B1;
-    -moz-box-shadow : 0 0 15px #B5B5B1;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 15em;
-    margin-left: 1em;
-}
-.nomRest4 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
-}
-.menuRest4 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
-    font-size: 18px;
-}
-.texteMenu4 {
-    text-align: center;
-    color:#63B24E;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
+    .contenuPage {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+        .entete {
+            background-color: $colorfond;
+            text-align: center;
+            font-size: x-large;
+            margin-bottom: 2em;
+        }
+            .titreEntete {
+                letter-spacing: -3px;
+            }
+                h1 {
+                    color: $colortxt;
+                    font-family: 'dominebold' ;
+                }
+        .blocMenus { 
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+            .duoMenus {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin-bottom: 2em;
+            }
+                .menu1 {
+                    background-color: #FCDFDB;
+                    box-shadow : 0 0 15px #B5B5B1;
+                    width: 15em;
+                    margin-right: 1em;
+                }
+                    .texteMenu1 {
+                        color: #3D1319;
+                        text-align: center;
+                    }
+                        i {
+                            font-size: 2em;
+                            color: #f58134f1
+                        }
+                        .nomRest1 {
+                            font-family: 'handleeregular', sans-serif;
+                        }
+                        .menuRest1 {
+                            font-family: 'handleeregular', sans-serif;
+                            font-size: 22px;
+                        }
+                .menu2 {
+                    background-color: #FFF5FE;
+                    box-shadow : 0 0 15px #B5B5B1;
+                    width: 15em;
+                    margin-left: 1em;
+                }
+                    .texteMenu2 {
+                        text-align: center;
+                        color: #C67412;
+                        padding-top: 20%;
+                        font-family: 'im_fell_french_canon_proRg', sans-serif;
+                    }
+                        .nomRest2 {
+                            font-size: 18px;
+                            background: linear-gradient(to left,#8F59FF, #C77412);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            font-family: 'im_fell_french_canon_proRg', sans-serif;
+                        }
+                .menu3 {  
+                    background-color: #EDEFEF;
+                    box-shadow : 0 0 15px #B5B5B1;
+                    width: 15em;
+                    margin-right: 1em;
+                }
+                    .texteMenu3 {
+                        text-align: center;
+                        color:#1776E9;
+                        font-family: 'england_hand_dbregular';
+                    }
+                        .nomRest3 {
+                            font-size: 22px;
+                            font-family: 'england_hand_dbregular';
+                            background: linear-gradient(to left,#56a7e6, #1530b7);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                        }
+                        .menuRest3 {
+                            font-family: Tahoma, Verdana, Geneva, sans-serif;
+                        }
+                .menu4 { 
+                    background-color: #FDFFFD;
+                    box-shadow : 0 0 15px #B5B5B1;
+                    width: 15em;
+                    margin-left: 1em;
+                }
+                    .texteMenu4 {
+                        text-align: center;
+                        color:#63B24E;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                    }
+                        .nomRest4 {
+                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            background: linear-gradient(to left, #83B24E, #c8fa80);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+                        }
+                        .menuRest4 {
+                            font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+                            font-size: 18px;
+                        }
 .blocMenu1 {
     padding-top: 4em;
     padding-bottom: 4em;
@@ -209,56 +185,48 @@ a .menu1
     color: #3D1319;
 }
 #btn_proch {
-    background-color: #569C87;
+    background-color: $colorfond;
     border-radius: 10px;
     width: 15em;
     text-align: center;
     font-size: 1.5em;
-    color: #FCCA46;
+    color: $colortxt;
     margin: auto;
     margin-bottom: 2em;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-/* Animation loading sur prochainement */
-#btn_proch:after {
-    content: ' .';
-    animation: dots 1s steps(5, end) infinite;}
-  @keyframes dots {
-    0%, 20% {
-      color: rgba(0,0,0,0);
-      text-shadow:
-        .25em 0 0 rgba(0,0,0,0),
-        .5em 0 0 rgba(0,0,0,0);}
-    40% {
-      color: #FCCA46;
-      text-shadow:
-        .25em 0 0 rgba(0,0,0,0),
-        .5em 0 0 rgba(0,0,0,0);}
-    60% {
-      text-shadow:
-        .25em 0 0 #FCCA46,
-        .5em 0 0 rgba(0,0,0,0);}
-    80%, 100% {
-      text-shadow:
-        .25em 0 0#FCCA46,
-        .5em 0 0#FCCA46;}}
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 23px;
+    color: $colortxt;
+    background-color: $colorfond;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 0;
+    position: sticky;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+    .btn_secousse {
+        color: $colortxt;
+        font-family: 'domineregurlar';
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }   
 
+ /* Animations du site */
 
-
-
-        /* Animation Zoom et opacité sur les menue */
+ /* Zooms sur les menus */
 .blocMenu1 {
-	-webkit-transform: scale(1);
 	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
     opacity: 1;
-	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 .menu1:hover .blocMenu1 {
-	-webkit-transform: scale(1.3);
     transform: scale(1.3);
     opacity: .5;
 }
@@ -280,115 +248,43 @@ a .menu1
     transform: scale(1.3);
     opacity: .5;
 }
-.btn_secousse {
-    color: #FCCA46;
-    font-family: 'domineregurlar';
-}
-footer {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    font-size: 23px;
-    color: #FCCA46;
-    background-color: #569C87;
-    padding-left: 30px;
-    padding-right: 30px;
-    bottom: 0;
-    position: sticky;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-.btn_secousse
-{
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
-.btn_secousse:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-  }
+/* Animations de secousse des boutons du footer */
 
-@keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
 
-@media screen and (max-width: 559px)
-
-{
-   
-    .entete
-{
+@media screen and (max-width: 559px) {
+.entete {
     font-size: large;
 }
-
-footer
-{
+footer {
     font-size: 18px;
 }
-    .couplemenue
-    {
-      
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 2em;
-    
+.duoMenus { 
+    flex-direction: column;
+    align-items: center;
+}
+    .menu1  {
+        justify-content: center;
+        margin-bottom: 4em;
+        margin-right: 0;
     }
-
-
-
-    .menu1
-{
-    display: flex;
-    justify-content: center;
-    width: 15em;
-    margin-bottom: 4em;
-    margin-right: 0;
-  
-}
-
-
-.menu2
-{
-    display: flex;
-    justify-content: center;
-    width: 15em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-bottom: 2em;
-    margin-left: 0;
-}
-
-.menu3
-{
-    display: flex;
-    justify-content: center;
-    width: 15em;
-    margin-bottom: 4em;
-    margin-right: 0;
-}
-.menu4
-{
-    display: flex;
-    justify-content: center;
-    width: 15em;
-    margin-bottom: 2em;
-    margin-left: 0;
-}
-
-
-
+    .menu2  {
+        display: flex;
+        justify-content: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-bottom: 2em;
+        margin-left: 0;
+    }
+    .menu3 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4em;
+        margin-right: 0;
+    }
+    .menu4 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2em;
+        margin-left: 0;
+    }
 }

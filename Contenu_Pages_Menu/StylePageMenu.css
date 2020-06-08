@@ -47,59 +47,75 @@
     font-weight: normal;
     font-style: normal;
 }
-.Entete {
-      background-color: #569C87;
-      text-align: center;
-      font-size: x-large;
-      margin-bottom: 2em;
-  }
-.titreEntete {
-    letter-spacing: -3px;
-}
-h1 {
-    color: #FCCA46;
-    font-family: 'dominebold', serif;
-}
 body
 {
 	margin: auto;
 	background-color: #FCFCFC;
 }
-.contenuPage {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-}
-.titre {
-    margin: auto;
-    margin-bottom: 1em;
-    font-size: 2em;
-    font-family: 'domineregular'
-}
-.titre1 {
-    font-family: 'handleeregular';
-    font-size: 2em;
-}
-#bodyMenu1 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    background-color: #FCDFDB;
-    border: black, 4em;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 68%;
-    margin-bottom: 3em;
-    font-family: 'handleeregular' ;
-    color: #3D1319;
-}
-.listeMenu, .soustitre {
-    font-family: 'handleeregular' ;
-    color: #3D1319;
-}
-.titreBasPage {
-    font-size: 2em;
-    font-family: 'handleeregular';
-}
+    .contenuPage {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+        .Entete {
+            background-color: #569C87;
+            text-align: center;
+            font-size: x-large;
+            margin-bottom: 2em;
+            text-decoration: none;
+        }
+            .titreEntete {
+                letter-spacing: -3px;
+                color: #FCCA46;
+                font-family: 'dominebold', serif;
+            }
+        .titre {
+            margin: auto;
+            margin-bottom: 1em;
+            font-size: 2em;
+            font-family: 'domineregular'
+        }
+        #bodyMenu1 {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            background-color: #FCDFDB;
+            border: black, 4em;
+            box-shadow : 0 0 15px #B5B5B1;
+            width: 68%;
+            margin-bottom: 3em;
+            font-family: 'handleeregular' ;
+            color: #3D1319;
+        }
+            .titre1 {
+                font-family: 'handleeregular';
+                font-size: 2em;
+            }
+            i
+            {
+                padding-top: 2em;
+                padding-left: 6.5em;
+                padding-right: 7em;
+                align-items: center;
+                font-size: 4em;
+                color: #f58134f1
+            }
+            .listeMenu, .soustitre {
+                font-family: 'handleeregular' ;
+                color: #3D1319;
+            }
+            .basmenu
+            {
+                flex-direction: row;
+                margin: auto;
+                margin-bottom: 5em;
+            }
+                .titreBasPage {
+                    font-size: 2em;
+                    font-family: 'handleeregular';
+                }
+/* Animation survol des catégories */
 #bodyMenu1 .soustitre1:hover:after {
     transform: scaleX(1);
 }
@@ -113,18 +129,69 @@ body
     transition: 0.5s;
     transform-origin: 0% 50%;
 }
-#bodyMenu2 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    background-color: #FFF5FE;
-    border: black, 4em;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 68%;
-    margin-bottom: 3em;
-    margin-bottom: 4em;
-    font-family: 'im_fell_french_canon_proRg';    
-}
+        #bodyMenu2 {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            background-color: #FFF5FE;
+            border: black, 4em;
+            box-shadow : 0 0 15px #B5B5B1;
+            width: 68%;
+            margin-bottom: 3em;
+            margin-bottom: 4em;
+            font-family: 'im_fell_french_canon_proRg';    
+        }
+            .titre2 {
+                font-size: 2em;
+                font-family: "im_fell_french_canon_proRg", sans-serif;
+                background: linear-gradient(to left, #8F59FF, #C77412);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            #bodyMenu2 .soustitre .soustitre1Page2
+            {
+                font-size: 2em;
+                color: #C67412;
+                text-align: center;
+            }
+            #bodyMenu2 .soustitre .soustitre2Page2
+            {
+                font-size: 2em;
+                color: #A56799;
+                text-align: center;
+            }
+            #bodyMenu2 .soustitre .soustitre3Page2
+            {
+                font-size: 2em;
+                color: #6E4CCC;
+                text-align: center;
+            }
+            .liste1Menu
+            {
+            width: 75%;
+            margin: auto;
+            margin-top: 2em;
+            margin-bottom: 3em;
+            color: #C67412 ;
+            }
+            .liste2Menu
+            {
+            width: 75%;
+            margin: auto;
+            margin-top: 2em;
+            margin-bottom: 3em;
+            color: #A56799;
+            }
+            .liste3Menu
+            {
+            width: 75%;
+            margin: auto;
+            margin-top: 2em;
+            margin-bottom: 3em;
+            color: #6E4CCC;
+            }
+            
+/* Animation survol des catégories */
 #bodyMenu2 .soustitre1Page2:hover:after {
     transform: scaleX(1);
   }
@@ -164,39 +231,28 @@ body
     transition: 0.5s;
     transform-origin: 0% 50%;
 }
-.titre2
-{
-    font-size: 2em;
-    /* Fallback: Set a background color. */
-    background-color: red;
-    
-    /* Create the gradient. */
-    background-image: linear-gradient(20deg, #C77412, #8F59FF);
-    
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-#bodyMenu3
-{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    background-color: #EDEFEF;
-    border: black, 4em;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 68%;
-    margin-bottom: 3em;
-    margin-bottom: 4em;
-    font-family: 'england_hand_dbregular';
-}
+        #bodyMenu3
+        {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            background-color: #EDEFEF;
+            border: black, 4em;
+            box-shadow : 0 0 15px #B5B5B1;
+            width: 68%;
+            margin-bottom: 3em;
+            margin-bottom: 4em;
+            font-family: 'england_hand_dbregular';
+        }
+            .titre3 {
+                font-size: 3em;
+                font-family: "england_hand_dbregular";
+                background: linear-gradient(to left, #56a7e6, #1530b7);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-family: 'england_hand_dbregular';
+            }
+/* Animation survol des catégories */
 #bodyMenu3 .soustitre1:hover:after {
     transform: scaleX(1);
   }
@@ -210,41 +266,27 @@ body
     transition: 0.5s;
     transform-origin: 0% 50%;
 }
-.titre3 {
-    font-family: 'england_hand_dbregular';
-    /* Fallback: Set a background color. */
-    background-color: red;
-    
-    /* Create the gradient. */
-    background-image: linear-gradient(-45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
-    
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    font-family: 'england_hand_dbregular';
-    font-size: 3em;
-}
-#bodyMenu4 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    background-color: #FDFFFD;
-    border: black, 4em;
-    -webkit-box-shadow : 0 0 15px #B5B5B1;
-    -moz-box-shadow : 0 0 15px #B5B5B1;
-    box-shadow : 0 0 15px #B5B5B1;
-    width: 68%;
-    margin-bottom: 3em;
-    margin-bottom: 4em;
-    font-family: "Kalam", cursive;
-}
+        #bodyMenu4 {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            background-color: #FDFFFD;
+            border: black, 4em;
+            box-shadow : 0 0 15px #B5B5B1;
+            width: 68%;
+            margin-bottom: 3em;
+            margin-bottom: 4em;
+            font-family: "Kalam", cursive;
+        }
+            .titre4
+            {
+                font-size: 3em;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background: linear-gradient(to left, #83B24E, #c8fa80);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+/* Animation survol des catégories */
 #bodyMenu4 .soustitre1:hover:after {
     transform: scaleX(1);
   }
@@ -258,29 +300,7 @@ body
     transition: 0.5s;
     transform-origin: 0% 50%;
 }
-.titre4
-{
-    /* Fallback: Set a background color. */
-    background-color: red;
-    
-    /* Create the gradient. */
-    background-image: linear-gradient(-80deg,#c8fa80 30% , #c8fa80 30%,#83B24E 40% );
-    
-    /* Set the background size and repeat properties. */
-    background-size: 100%;
-    background-repeat: repeat;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    font-family: "Dancing Script", cursive;
-    font-size: 3em;
-    font-family: "Kaushan Script", cursive;
-    font-size: 3em;
-}
+/* Propriétés communes aux 4 menus */
 .titre1, .titre2, .titre3, .titre4
 {
     display: flex;
@@ -289,109 +309,39 @@ body
     margin: auto;
     padding-top: 2em;
 }
-i
-{
-    padding-top: 2em;
-    padding-left: 6.5em;
-    padding-right: 7em;
-    align-items: center;
-    font-size: 4em;
-    color: #f58134f1
-}
-.notemini
-{
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-.soustitre {
-    margin-top: 35px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: justify;
-    margin-left: 1em;
-    margin-right: 1em;
-}
-.soustitre1
-{
-    font-size: 2em;
-    text-align: center;
-}
-#bodyMenu2 .soustitre .soustitre1Page2
-{
-    font-size: 2em;
-    color: #C67412;
-    text-align: center;
-}
-#bodyMenu2 .soustitre .soustitre2Page2
-{
-    font-size: 2em;
-    color: #A56799;
-    text-align: center;
-}
-#bodyMenu2 .soustitre .soustitre3Page2
-{
-    font-size: 2em;
-    color: #6E4CCC;
-    text-align: center;
-}
-.listeMenu
-{
-   width: 75%;
-   margin: auto;
-   margin-top: 2em;
-   margin-bottom: 3em;
-}
-.liste1Menu
-{
-   width: 75%;
-   margin: auto;
-   margin-top: 2em;
-   margin-bottom: 3em;
-   color: #C67412 ;
-}
-.liste2Menu
-{
-   width: 75%;
-   margin: auto;
-   margin-top: 2em;
-   margin-bottom: 3em;
-   color: #A56799;
-}
-.liste3Menu
-{
-   width: 75%;
-   margin: auto;
-   margin-top: 2em;
-   margin-bottom: 3em;
-   color: #6E4CCC;
-}
-.basmenu
-{
-    display: flex;
-    flex-direction: row;
+    .bordure {
+        width: 30%;
+    }
+    .soustitre {
+        margin-top: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: justify;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .soustitre .soustitre1 {
+        font-size: 2em;
+    }
+    .listeMenu
+    {
+    width: 75%;
     margin: auto;
-    margin-bottom: 5em;
-}
-.plat {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;    
-}
-h1 {
-    color: #FCCA46;
-}
-.contenuPage {  
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-a {
-    text-decoration: none;
-}
+    margin-top: 2em;
+    margin-bottom: 3em;
+    }
+    .plat {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;    
+    }
+
 .btn_secousse {
     color: #FCCA46;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 footer {
     display: flex;
@@ -407,170 +357,54 @@ footer {
     padding-top: 0;
     padding-bottom: 0;
 }
-.btn_secousse {
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
-.btn_secousse:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-}
-@keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
-
-
-  @media screen and (max-width: 559px)
-
-{
-    .entete
-{
+@media screen and (max-width: 559px) {
+    .Entete {
     font-size: large;
-}
-
-footer
-{
-    font-size: 18px;
-}
-    #pagebodymenu1
-    {
+    }
+    footer {
+        font-size: 18px;
+    }
+    #bodyMenu1 {
         width: 90%;
     }
-    #pagebodymenu2
-    {
+    #bodyMenu2 {
         width: 90%;
     }
-    #pagebodymenu3
-    {
+    #bodyMenu3 {
         width: 90%;
     }
-    #pagebodymenu4
-    {
+    #bodyMenu4 {
         width: 90%;
     }
-    .deco
-    {
+    .bordure {
         width: 22%;
     }
-    .prelude
-    {
+    .soustitre .soustitre1 {
         text-align: center;
         font-size: 1.7em;
     }
-    .memu2prelude1
-    {
+    .soustitre1Page2 {
         text-align: center;
         font-size: 1.7em;
     }
-    .memu2prelude2
-    {
+    .soustitre2Page2 {
         text-align: center;
         font-size: 1.7em;
     }
-    .memu2prelude3
-    {
+    .soustitre3Page2 {
         text-align: center;
         font-size: 1.7em;
     }
-    .font1
-    {
+    .titre1 {
         text-align: center;
     }
-    .font2
-    {
+    .titre2 {
         text-align: center;
     }
-    .font3
-    {
+    .titre3 {
         text-align: center;
     }
-    .font4
-    {
+    .titre4 {
         text-align: center;
     }
-    
-}
-
-@media screen and (max-width: 1300px)
-
-{
-    .entete
-{
-    font-size: large;
-}
-
-footer
-{
-    font-size: 18px;
-}
-    #pagebodymenu1
-    {
-        width: 90%;
-    }
-    #pagebodymenu2
-    {
-        width: 90%;
-    }
-    #pagebodymenu3
-    {
-        width: 90%;
-    }
-    #pagebodymenu4
-    {
-        width: 90%;
-    }
-    .deco
-    {
-        width: 22%;
-    }
-    .prelude
-    {
-        text-align: center;
-        font-size: 1.7em;
-    }
-    .memu2prelude1
-    {
-        text-align: center;
-        font-size: 1.7em;
-    }
-    .memu2prelude2
-    {
-        text-align: center;
-        font-size: 1.7em;
-    }
-    .memu2prelude3
-    {
-        text-align: center;
-        font-size: 1.7em;
-    }
-    .font1
-    {
-        text-align: center;
-    }
-    .font2
-    {
-        text-align: center;
-    }
-    .font3
-    {
-        text-align: center;
-    }
-    .font4
-    {
-        text-align: center;
-    }
-    
 }
