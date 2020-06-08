@@ -70,9 +70,9 @@ h1 {
 }
 
 .menu1 {
-  background-color: #FCDFDB;
   box-shadow: 0 0 15px #B5B5B1;
   width: 15em;
+  background-color: #FCDFDB;
   margin-right: 1em;
 }
 
@@ -96,9 +96,9 @@ i {
 }
 
 .menu2 {
-  background-color: #FFF5FE;
   box-shadow: 0 0 15px #B5B5B1;
   width: 15em;
+  background-color: #FFF5FE;
   margin-left: 1em;
 }
 
@@ -118,9 +118,9 @@ i {
 }
 
 .menu3 {
-  background-color: #EDEFEF;
   box-shadow: 0 0 15px #B5B5B1;
   width: 15em;
+  background-color: #EDEFEF;
   margin-right: 1em;
 }
 
@@ -143,9 +143,9 @@ i {
 }
 
 .menu4 {
-  background-color: #FDFFFD;
   box-shadow: 0 0 15px #B5B5B1;
   width: 15em;
+  background-color: #FDFFFD;
   margin-left: 1em;
 }
 

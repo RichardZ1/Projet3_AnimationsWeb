@@ -1,5 +1,10 @@
 $colortxt: #FCCA46;
 $colorfond:#569C87;
+
+ @mixin OmbreBox {
+    box-shadow : 0 0 15px #B5B5B1;
+    width: 15em;
+ }
 @font-face {
     font-family: 'domineregular';
     src: url('Font/Domine-Regular-webfont.eot');
@@ -85,9 +90,8 @@ body {
                 margin-bottom: 2em;
             }
                 .menu1 {
+                    @include OmbreBox;
                     background-color: #FCDFDB;
-                    box-shadow : 0 0 15px #B5B5B1;
-                    width: 15em;
                     margin-right: 1em;
                 }
                     .texteMenu1 {
@@ -106,9 +110,8 @@ body {
                             font-size: 22px;
                         }
                 .menu2 {
+                    @include OmbreBox;
                     background-color: #FFF5FE;
-                    box-shadow : 0 0 15px #B5B5B1;
-                    width: 15em;
                     margin-left: 1em;
                 }
                     .texteMenu2 {
@@ -125,9 +128,8 @@ body {
                             font-family: 'im_fell_french_canon_proRg', sans-serif;
                         }
                 .menu3 {  
+                    @include OmbreBox;
                     background-color: #EDEFEF;
-                    box-shadow : 0 0 15px #B5B5B1;
-                    width: 15em;
                     margin-right: 1em;
                 }
                     .texteMenu3 {
@@ -146,9 +148,8 @@ body {
                             font-family: Tahoma, Verdana, Geneva, sans-serif;
                         }
                 .menu4 { 
+                    @include OmbreBox;
                     background-color: #FDFFFD;
-                    box-shadow : 0 0 15px #B5B5B1;
-                    width: 15em;
                     margin-left: 1em;
                 }
                     .texteMenu4 {
