@@ -229,7 +229,6 @@ footer {
   transform: scale(1);
   transition: 0.3s ease-in-out;
   opacity: 1;
-  transition: 0.3s ease-in-out;
 }
 
 .menu1:hover .blocMenu1 {
@@ -246,7 +245,6 @@ footer {
   transform: scale(1);
   transition: 0.3s ease-in-out;
   opacity: 1;
-  transition: 0.3s ease-in-out;
 }
 
 .menu3:hover .blocMenu2 {

@@ -81,7 +81,6 @@ body
             flex-direction: column;
             margin: auto;
             background-color: #FCDFDB;
-            border: black, 4em;
             box-shadow : 0 0 15px #B5B5B1;
             width: 68%;
             margin-bottom: 3em;
@@ -134,7 +133,6 @@ body
             flex-direction: column;
             margin: auto;
             background-color: #FFF5FE;
-            border: black, 4em;
             box-shadow : 0 0 15px #B5B5B1;
             width: 68%;
             margin-bottom: 3em;
@@ -237,7 +235,6 @@ body
             flex-direction: column;
             margin: auto;
             background-color: #EDEFEF;
-            border: black, 4em;
             box-shadow : 0 0 15px #B5B5B1;
             width: 68%;
             margin-bottom: 3em;
@@ -271,7 +268,6 @@ body
             flex-direction: column;
             margin: auto;
             background-color: #FDFFFD;
-            border: black, 4em;
             box-shadow : 0 0 15px #B5B5B1;
             width: 68%;
             margin-bottom: 3em;
@@ -337,26 +333,25 @@ body
         flex-direction: row;
         justify-content: space-between;    
     }
-
-.btn_secousse {
-    color: #FCCA46;
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
 footer {
     display: flex;
     justify-content: space-between;
     text-align: center;
     font-size: 23px;
-    color: #FCCA46;
     background-color: #569C87;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     bottom: 0;
     position: sticky;
     padding-top: 0;
     padding-bottom: 0;
-}
+    }  
+    .btn_secousse {
+        color: #FCCA46;
+        font-family: "domineregurlar";
+        padding-top: 1px;
+        padding-bottom: 1px;
+        }
 @media screen and (max-width: 559px) {
     .Entete {
     font-size: large;
