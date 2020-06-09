@@ -12,13 +12,13 @@
 
 	<body>
         <div class="contenuPage">
-            <a href="index.html" class="entete">
+            <div class="entete">
                 <header>
                     <h1 class="titreEntete">Ohmyfood</h1>
                 </header>
-            </a>>
+            </div>
             <div class="blocMenus">
-                <div class="duoMenus">
+                <section class="duoMenus">
                     <div class="menu1">
                         <a href="Contenu_Pages_Menu/menu_1.html">
                             <div class="blocMenu1">
@@ -40,8 +40,8 @@
                             </div>
                         </a>    
                     </div>
-                </div>
-                <div class="duoMenus">
+                </section>
+                <section class="duoMenus">
                     <div class="menu3">
                         <a href="Contenu_Pages_Menu/menu_3.html">
                             <div class="blocMenu2">
@@ -62,16 +62,27 @@
                             </div>
                         </a>                           
                     </div>
-                </div>
+                </section>
             </div>
 
                 <div id="btn_proch">
                     <p>Prochainement</p>
-                </div>
+                    <div class="points">
+                        <div class="point"></div>
+                        <div class="point"></div>
+                        <div class="point"></div>
+                    </div>
+                </div> 
 
                 <footer>
-                        <a class="btn_secousse" href="Contenu_Pages_Menu/mentions.html"><h4>Mentions légales</h4></a>
-                        <a class="btn_secousse" href="mailto:ohmyfood@gmail.com"><h4>Contactez-nous</h4></a>
+                    <section id="btnSecousse">
+                        <div class="mentionsLegales">
+                            <a href="Contenu_Pages_Menu/mentions.html"><h4>Mentions légales</h4></a>
+                        </div>
+                        <div class="contactezNous">
+                            <a href="mailto:ohmyfood@gmail.com"><h4>Contactez-nous</h4></a>
+                        </div>
+                    </section>        
                 </footer>
         </div>
     </body>
