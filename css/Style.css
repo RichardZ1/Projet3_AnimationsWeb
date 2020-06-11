@@ -105,11 +105,9 @@ i {
 }
 
 .texteMenu2 {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 100px;
   text-align: center;
   color: #C67412;
-  padding-top: 20%;
   font-family: "im_fell_french_canon_proRg", sans-serif;
 }
 
@@ -186,19 +184,64 @@ a .menu1 {
   color: #3D1319;
 }
 
-#btn_proch {
+.btnProch {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  width: 300px;
+  margin: 21px auto 51px auto;
   background-color: #569C87;
-  border-radius: 10px;
-  width: 15em;
-  text-align: center;
-  font-size: 1.5em;
+  border-radius: 5.5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.btnProch p {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 7px;
+  font-size: 27px;
+  font-family: "dominebold";
+  font-weight: bold;
   color: #FCCA46;
-  margin: auto;
-  margin-bottom: 2em;
-  padding-top: 8px;
-  padding-bottom: 8px;
 }
 
+/* ANIMATION DES POINTS*/
+.points {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 1%;
+}
+.points .point {
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 6.5px;
+  height: 6.5px;
+  border-radius: 50%;
+  background: #FCCA46;
+}
+.points .point:nth-child(1) {
+  animation: pulse 3s linear infinite;
+}
+.points .point:nth-child(2) {
+  animation: pulse 3s linear infinite 200ms;
+}
+.points .point:nth-child(3) {
+  animation: pulse 3s linear infinite 400ms;
+}
+
+@keyframes pulse {
+  from, 40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  80%, to {
+    opacity: 1;
+  }
+}
 footer {
   background-color: #569C87;
   padding-left: 10px;
