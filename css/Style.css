@@ -77,18 +77,21 @@ h1 {
 }
 
 .texteMenu1 {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 5em;
+  padding-bottom: 5em;
   color: #3D1319;
   text-align: center;
 }
 
 i {
   font-size: 2em;
-  color: #f58134f1;
+  background: linear-gradient(to left, rgba(236, 167, 111, 0.945), rgba(240, 97, 15, 0.959));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nomRest1 {
+  font-size: 22px;
   font-family: "handleeregular", sans-serif;
 }
 
@@ -105,10 +108,14 @@ i {
 }
 
 .texteMenu2 {
-  padding-top: 100px;
   text-align: center;
   color: #C67412;
   font-family: "im_fell_french_canon_proRg", sans-serif;
+  padding-top: 6.5em;
+  padding-bottom: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .nomRest2 {
@@ -132,6 +139,8 @@ i {
   text-align: center;
   color: #1776E9;
   font-family: "england_hand_dbregular";
+  margin-top: 1em;
+  margin-bottom: 1.5em;
 }
 
 .nomRest3 {
@@ -356,26 +365,21 @@ footer {
   }
 
   .menu2 {
-    display: flex;
     justify-content: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-bottom: 2em;
-    margin-left: 0;
+    margin-bottom: 4em;
+    margin-right: 0;
   }
 
   .menu3 {
-    display: flex;
     justify-content: center;
     margin-bottom: 4em;
     margin-right: 0;
   }
 
   .menu4 {
-    display: flex;
     justify-content: center;
-    margin-bottom: 2em;
-    margin-left: 0;
+    margin-bottom: 4em;
+    margin-right: 0;
   }
 }
 

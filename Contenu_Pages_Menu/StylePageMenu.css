@@ -91,14 +91,13 @@ body
                 font-family: 'handleeregular';
                 font-size: 2em;
             }
-            i
-            {
+            i {
                 margin-top: 1em;
-                padding-left: 6.5em;
-                padding-right: 7em;
                 align-items: center;
                 font-size: 4em;
-                color: #f58134f1
+                background: linear-gradient(to left,rgba(240, 187, 144, 0.945), rgba(236, 97, 4, 0.959));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
             }
             .soustitre {
                 font-family: 'handleeregular' ;
@@ -157,25 +156,26 @@ body
                 font-size: 2em;
                 color: #C67412;
                 text-align: center;
+                margin-bottom: 30px;
             }
             #bodyMenu2 .soustitre .soustitre2Page2
             {
                 font-size: 2em;
                 color: #A56799;
                 text-align: center;
+                margin-bottom: 30px;
             }
             #bodyMenu2 .soustitre .soustitre3Page2
             {
                 font-size: 2em;
                 color: #6E4CCC;
                 text-align: center;
+                margin-bottom: 30px;
             }
             .liste1Menu
             {
             width: 75%;
             margin: auto;
-            margin-top: 2em;
-            margin-bottom: 3em;
             color: #C67412 ;
             font-size: 1.3em;
             }
@@ -183,8 +183,6 @@ body
             {
             width: 75%;
             margin: auto;
-            margin-top: 2em;
-            margin-bottom: 3em;
             color: #A56799;
             font-size: 1.3em;
             }
@@ -192,8 +190,6 @@ body
             {
             width: 75%;
             margin: auto;
-            margin-top: 2em;
-            margin-bottom: 3em;
             color: #6E4CCC;
             font-size: 1.3em;
             }
@@ -306,7 +302,7 @@ body
     transform-origin: 0% 50%;
 }
 /* Propriétés communes aux 4 menus */
-.titre1, .titre2, .titre3, .titre4
+.titreMenu
 {
     display: flex;
     flex-direction: column;
@@ -315,7 +311,7 @@ body
     padding-top: 2em;
 }
     .bordure {
-        width: 30%;
+        width: 25%;
     }
     .soustitre {
         margin-top: 11px;
@@ -405,7 +401,7 @@ footer {
       transform: rotate(3deg);
     }
   }
-@media screen and (max-width: 559px) {
+@media screen and (max-width: 590px) {
     .Entete {
     font-size: large;
     }
