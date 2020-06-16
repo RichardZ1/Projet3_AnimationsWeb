@@ -103,16 +103,16 @@ body
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
-            .soustitre {
+            #bodyMenu1 .sousTitre {
                 font-family: 'handleeregular' ;
                 color: #3D1319;
             }
-            .listeMenu {
+            #bodyMenu1 .listeMenu {
                 font-family: 'handleeregular' ;
                 color: #3D1319;
                 font-size: 23px;
             }
-            .basmenu
+            .basMenu
             {
                 text-align: center;
                 flex-direction: row;
@@ -124,10 +124,10 @@ body
                     font-family: 'handleeregular';
                 }
 /* Animation survol des catégories */
-#bodyMenu1 .soustitre1:hover:after {
+#bodyMenu1 .sousTitre1:hover:after {
     transform: scaleX(1);
 }
-#bodyMenu1 .soustitre1:after {
+#bodyMenu1 .sousTitre1:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -155,23 +155,26 @@ body
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
-            #bodyMenu2 .soustitre .soustitre1Page2
+            #bodyMenu2 .sousTitre .sousTitre1Page2
             {
                 font-size: 2em;
+                font-family: "im_fell_french_canon_proRg", sans-serif;
                 color: #C67412;
                 text-align: center;
                 margin-bottom: 30px;
             }
-            #bodyMenu2 .soustitre .soustitre2Page2
+            #bodyMenu2 .sousTitre .sousTitre2Page2
             {
                 font-size: 2em;
+                font-family: "im_fell_french_canon_proRg", sans-serif;
                 color: #A56799;
                 text-align: center;
                 margin-bottom: 30px;
             }
-            #bodyMenu2 .soustitre .soustitre3Page2
+            #bodyMenu2 .sousTitre .sousTitre3Page2
             {
                 font-size: 2em;
+                font-family: "im_fell_french_canon_proRg", sans-serif;
                 color: #6E4CCC;
                 text-align: center;
                 margin-bottom: 30px;
@@ -179,6 +182,7 @@ body
             .liste1Menu
             {
             width: 75%;
+            font-family: "im_fell_french_canon_proRg", sans-serif;
             margin: auto;
             color: #C67412 ;
             font-size: 1.3em;
@@ -186,6 +190,7 @@ body
             .liste2Menu
             {
             width: 75%;
+            font-family: "im_fell_french_canon_proRg", sans-serif;
             margin: auto;
             color: #A56799;
             font-size: 1.3em;
@@ -193,16 +198,17 @@ body
             .liste3Menu
             {
             width: 75%;
+            font-family: "im_fell_french_canon_proRg", sans-serif;
             margin: auto;
             color: #6E4CCC;
             font-size: 1.3em;
             }
             
 /* Animation survol des catégories */
-#bodyMenu2 .soustitre1Page2:hover:after {
+#bodyMenu2 .sousTitre1Page2:hover:after {
     transform: scaleX(1);
   }
-#bodyMenu2 .soustitre1Page2:after {
+#bodyMenu2 .sousTitre1Page2:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -212,10 +218,10 @@ body
     transition: 0.5s;
     transform-origin: 0% 50%;
   }
-#bodyMenu2 .soustitre2Page2:hover:after {
+#bodyMenu2 .sousTitre2Page2:hover:after {
     transform: scaleX(1);
   }
-#bodyMenu2 .soustitre2Page2:after {
+#bodyMenu2 .sousTitre2Page2:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -225,10 +231,10 @@ body
     transition: 0.5s;
     transform-origin: 0% 50%;
   }
-#bodyMenu2 .soustitre3Page2:hover:after {
+#bodyMenu2 .sousTitre3Page2:hover:after {
     transform: scaleX(1);
   }
-#bodyMenu2 .soustitre3Page2:after {
+#bodyMenu2 .sousTitre3Page2:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -251,18 +257,25 @@ body
             font-family: 'england_hand_dbregular';
         }
             .titre3 {
-                font-size: 3em;
+                font-size: 4em;
                 font-family: "england_hand_dbregular";
                 background: linear-gradient(to left, #56a7e6, #1530b7);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-                font-family: 'england_hand_dbregular';
             }
+                #bodyMenu3 .sousTitre .sousTitre1 {
+                    font-size: 2.5em;
+                    font-family: 'england_hand_dbregular';
+                }
+                #bodyMenu3 .listeMenu .plat {
+                    font-size: 2em;
+                    font-family: 'england_hand_dbregular';
+                }
 /* Animation survol des catégories */
-#bodyMenu3 .soustitre1:hover:after {
+#bodyMenu3 .sousTitre1:hover:after {
     transform: scaleX(1);
   }
-#bodyMenu3 .soustitre1:after {
+#bodyMenu3 .sousTitre1:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -292,10 +305,10 @@ body
                 -webkit-text-fill-color: transparent;
             }
 /* Animation survol des catégories */
-#bodyMenu4 .soustitre1:hover:after {
+#bodyMenu4 .sousTitre1:hover:after {
     transform: scaleX(1);
   }
-#bodyMenu4 .soustitre1:after {
+#bodyMenu4 .sousTitre1:after {
     content: "";
     width: 100%;
     height: 100%;
@@ -317,7 +330,7 @@ body
     .bordure {
         width: 25%;
     }
-    .soustitre {
+    .sousTitre {
         margin-top: 11px;
         display: flex;
         flex-direction: row;
@@ -327,7 +340,7 @@ body
         margin-left: 1em;
         margin-right: 1em;
     }
-    .soustitre .soustitre1 {
+    .sousTitre .sousTitre1 {
         font-size: 2em;
     }
     .listeMenu
@@ -406,7 +419,7 @@ footer {
     }
   }
 @media screen and (max-width: 590px) {
-    .Entete {
+    .entete {
     font-size: large;
     }
     footer {
@@ -427,19 +440,19 @@ footer {
     .bordure {
         width: 22%;
     }
-    .soustitre .soustitre1 {
+    .sousTitre .sousTitre1 {
         text-align: center;
         font-size: 1.7em;
     }
-    .soustitre1Page2 {
+    .sousTitre1Page2 {
         text-align: center;
         font-size: 1.7em;
     }
-    .soustitre2Page2 {
+    .sousTitre2Page2 {
         text-align: center;
         font-size: 1.7em;
     }
-    .soustitre3Page2 {
+    .sousTitre3Page2 {
         text-align: center;
         font-size: 1.7em;
     }
