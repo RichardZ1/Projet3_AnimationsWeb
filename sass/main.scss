@@ -74,10 +74,14 @@ body {
             .titreEntete {
                 letter-spacing: -3px;
             }
-                h1 {
-                    color: $colortxt;
-                    font-family: 'dominebold' ;
+                a {
+                    text-decoration: none;
                 }
+                    h1 {
+                        color: $colortxt;
+                        font-size: 50px;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+                    }
         .blocMenus { 
             display: flex;
             flex-direction: column;
@@ -185,9 +189,6 @@ body {
                             font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
                             font-size: 18px;
                         }
-a {
-    text-decoration: none;
-}
 a .menu1
 {
     color: #3D1319;
