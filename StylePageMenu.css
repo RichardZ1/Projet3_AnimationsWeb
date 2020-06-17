@@ -114,12 +114,15 @@ body
             }
             .basMenu
             {
+                display: flex;
                 text-align: center;
                 flex-direction: row;
                 margin: auto;
                 margin-bottom: 5em;
             }
                 .titreBasPage {
+                    margin-top: 2.5em;
+                    margin-left: 1em;
                     font-size: 2em;
                     font-family: 'handleeregular';
                 }
@@ -264,12 +267,12 @@ body
                 -webkit-text-fill-color: transparent;
             }
                 #bodyMenu3 .sousTitre .sousTitre1 {
-                    font-size: 2.5em;
-                    font-family: 'england_hand_dbregular';
+                    font-size: 2em;
+                    font-family: "Kalam", cursive;
                 }
                 #bodyMenu3 .listeMenu .plat {
-                    font-size: 2em;
-                    font-family: 'england_hand_dbregular';
+                    font-size: 1.5em;
+                    font-family: "Kalam", cursive;
                 }
 /* Animation survol des catégories */
 #bodyMenu3 .sousTitre1:hover:after {
@@ -442,19 +445,28 @@ footer {
     }
     .sousTitre .sousTitre1 {
         text-align: center;
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
-    .sousTitre1Page2 {
+    #bodyMenu2 .sousTitre .sousTitre1Page2 {
         text-align: center;
-        font-size: 1.7em;
+        font-size: 1em;
     }
-    .sousTitre2Page2 {
+    #bodyMenu2 .sousTitre .sousTitre2Page2 {
         text-align: center;
-        font-size: 1.7em;
+        font-size: 1em;
     }
-    .sousTitre3Page2 {
+    #bodyMenu2 .sousTitre .sousTitre3Page2 {
         text-align: center;
-        font-size: 1.7em;
+        font-size: 1em;
+    }
+    #bodyMenu2 .liste1Menu .plat {
+        font-size: 1em;
+    }
+    #bodyMenu2 .liste2Menu .plat {
+        font-size: 1em;
+    }
+    #bodyMenu2 .liste3Menu .plat {
+        font-size: 1em;
     }
     .titre1 {
         text-align: center;
@@ -467,5 +479,8 @@ footer {
     }
     .titre4 {
         text-align: center;
+    }
+    .basMenu {
+        flex-direction: column;
     }
 }
