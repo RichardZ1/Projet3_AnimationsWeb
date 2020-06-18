@@ -376,7 +376,7 @@ footer {
     text-align: center;
     font-size: 23px;
     flex-direction: row;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'dominebold';
     background-color: #569C87;
     padding-left: 20px;
 }
@@ -426,7 +426,7 @@ footer {
     font-size: large;
     }
     footer {
-        font-size: 18px;
+        font-size: 13px;
     }
     #bodyMenu1 {
         width: 90%;
@@ -468,16 +468,16 @@ footer {
     #bodyMenu2 .liste3Menu .plat {
         font-size: 1em;
     }
-    .titre1 {
+    #bodyMenu1 .titre1 {
         text-align: center;
     }
-    .titre2 {
+    #bodyMenu2 .titre2 {
         text-align: center;
     }
-    .titre3 {
+    #bodyMenu3 .titre3 {
         text-align: center;
     }
-    .titre4 {
+    #bodyMenu4 .titre4 {
         text-align: center;
     }
     .basMenu {

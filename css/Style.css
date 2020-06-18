@@ -1,31 +1,31 @@
 @font-face {
   font-family: "domineregular";
-  src: url("Font/Domine-Regular-webfont.eot");
-  src: url("Font/Domine-Regular-webfont.eot") format("embedded-opentype"), url("Font/Domine-Regular-webfont.woff2") format("woff2"), url("Font/Domine-Regular-webfont.woff") format("woff"), url("Font/Domine-Regular-webfont.ttf") format("truetype"), url("Font/Domine-Regular-webfont.svg#domineregular") format("svg");
+  src: url("../Font/Domine-Regular-webfont.eot");
+  src: url("../Font/Domine-Regular-webfont.eot") format("embedded-opentype"), url("../Font/Domine-Regular-webfont.woff2") format("woff2"), url("../Font/Domine-Regular-webfont.woff") format("woff"), url("../Font/Domine-Regular-webfont.ttf") format("truetype"), url("../Font/Domine-Regular-webfont.svg#domineregular") format("svg");
 }
 @font-face {
   font-family: "dominebold";
-  src: url("Font/Domine-Bold-webfont.eot");
-  src: url("Font/Domine-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("Font/Domine-Bold-webfont.woff2") format("woff2"), url("Font/Domine-Bold-webfont.woff") format("woff"), url("Font/Domine-Bold-webfont.ttf") format("truetype"), url("Font/Domine-Bold-webfont.svg#dominebold") format("svg");
+  src: url("../Font/Domine-Bold-webfont.eot");
+  src: url("../Font/Domine-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../Font/Domine-Bold-webfont.woff2") format("woff2"), url("../Font/Domine-Bold-webfont.woff") format("woff"), url("../Font/Domine-Bold-webfont.ttf") format("truetype"), url("../Font/Domine-Bold-webfont.svg#dominebold") format("svg");
 }
 @font-face {
   font-family: "handleeregular";
-  src: url("Font/handlee-regular-webfont.eot");
-  src: url("Font/handlee-regular-webfont.eot?#iefix") format("embedded-opentype"), url("Font/handlee-regular-webfont.woff2") format("woff2"), url("Font/handlee-regular-webfont.woff") format("woff"), url("Font/handlee-regular-webfont.ttf") format("truetype"), url("Font/handlee-regular-webfont.svg#handleeregular") format("svg");
+  src: url("../Font/handlee-regular-webfont.eot");
+  src: url("../Font/handlee-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../Font/handlee-regular-webfont.woff2") format("woff2"), url("../Font/handlee-regular-webfont.woff") format("woff"), url("../Font/handlee-regular-webfont.ttf") format("truetype"), url("../Font/handlee-regular-webfont.svg#handleeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "im_fell_french_canon_proRg";
-  src: url("Font/FeFCrm27C-webfont.eot");
-  src: url("Font/FeFCrm27C-webfont.eot?#iefix") format("embedded-opentype"), url("Font/FeFCrm27C-webfont.woff2") format("woff2"), url("Font/FeFCrm27C-webfont.woff") format("woff"), url("Font/FeFCrm27C-webfont.ttf") format("truetype"), url("Font/FeFCrm27C-webfont.svg#im_fell_french_canon_proRg") format("svg");
+  src: url("../Font/FeFCrm27C-webfont.eot");
+  src: url("../Font/FeFCrm27C-webfont.eot?#iefix") format("embedded-opentype"), url("../Font/FeFCrm27C-webfont.woff2") format("woff2"), url("../Font/FeFCrm27C-webfont.woff") format("woff"), url("../Font/FeFCrm27C-webfont.ttf") format("truetype"), url("../Font/FeFCrm27C-webfont.svg#im_fell_french_canon_proRg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "england_hand_dbregular";
-  src: url("Font/england-webfont.eot");
-  src: url("Font/england-webfont.eot?#iefix") format("embedded-opentype"), url("Font/england-webfont.woff2") format("woff2"), url("Font/england-webfont.woff") format("woff"), url("Font/england-webfont.ttf") format("truetype"), url("Font/england-webfont.svg#england_hand_dbregular") format("svg");
+  src: url("../Font/england-webfont.eot");
+  src: url("../Font/england-webfont.eot?#iefix") format("embedded-opentype"), url("../Font/england-webfont.woff2") format("woff2"), url("../Font/england-webfont.woff") format("woff"), url("../Font/england-webfont.ttf") format("truetype"), url("../Font/england-webfont.svg#england_hand_dbregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -142,8 +142,6 @@ i {
   padding-top: 5em;
   padding-bottom: 5em;
   text-align: center;
-  color: #1776E9;
-  font-family: "england_hand_dbregular";
   margin-top: 1em;
   margin-bottom: 1.5em;
 }
@@ -157,6 +155,7 @@ i {
 }
 
 .menuRest3 {
+  color: #1776E9;
   font-family: Tahoma, Verdana, Geneva, sans-serif;
 }
 
@@ -294,7 +293,7 @@ footer {
 }
 
 .menu1:hover .texteMenu1 {
-  transform: scale(1.2);
+  transform: scale(1.3);
   opacity: 0.5;
 }
 
@@ -304,7 +303,7 @@ footer {
 }
 
 .menu3:hover .texteMenu3 {
-  transform: scale(1.2);
+  transform: scale(1.3);
   opacity: 0.5;
 }
 
