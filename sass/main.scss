@@ -288,24 +288,24 @@ footer {
  /* Zooms sur les menus */
  .texteMenu1, .texteMenu2, .texteMenu3, .texteMenu4 {
 	transform: scale(1);
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
     opacity: 1;
 }
 .menu1:hover .texteMenu1 {
     transform: scale(1.3);
-    opacity: .5;
+    opacity: 0.5;
 }
 .menu2:hover .texteMenu2 {
     transform: scale(1.3);
-    opacity: .5;
+    opacity: 0.5;
 }
 .menu3:hover .texteMenu3{
     transform: scale(1.3);
-    opacity: .5;
+    opacity: 0.5;
 }
 .menu4:hover .texteMenu4 {
     transform: scale(1.3);
-    opacity: .5;
+    opacity: 0.5;
 }
 /* Animations de secousse des boutons du footer */
 .mentionsLegales:hover, .contactezNous:hover {
